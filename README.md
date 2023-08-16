@@ -1,1 +1,1 @@
-# Изучение Swift
+# Just learning Swift
