@@ -299,7 +299,7 @@
 				DEVELOPMENT_TEAM = YY26X8TJFN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Concentration/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Вовина игра";
+				INFOPLIST_KEY_CFBundleDisplayName = "Найди пару";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -329,7 +329,7 @@
 				DEVELOPMENT_TEAM = YY26X8TJFN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Concentration/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Вовина игра";
+				INFOPLIST_KEY_CFBundleDisplayName = "Найди пару";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

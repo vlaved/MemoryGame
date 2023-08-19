@@ -6,6 +6,7 @@
 //
 
 import UIKit
+//import AudioToolbox
 
 class ViewController: UIViewController {
 
@@ -37,6 +38,7 @@ class ViewController: UIViewController {
     }
     
     func updateViewFromModel() {
+        let generator = UISelectionFeedbackGenerator()
         for index in buttonCollection.indices {
             let button = buttonCollection[index]
             let card = game.cards[index]
@@ -46,6 +48,11 @@ class ViewController: UIViewController {
             } else {
                 button.setTitle("", for: .normal)
                 button.backgroundColor = card.isMatched ? UIColor.systemGreen : UIColor.systemBlue
+                //if card.isMatched {
+                //    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+                //AudioServicesPlayAlertSoundWithCompletion(SystemSoundID, (kSystemSoundID_Vibrate)) {}
+                //}
+                generator.selectionChanged()
             }
         }
     }
